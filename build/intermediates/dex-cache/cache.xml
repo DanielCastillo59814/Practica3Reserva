@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="G:\Android\Reserva-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="G:\Android\Reserva-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.0.0_d19e5c02cf2d9dbc675e13999dde9df1b3f41d5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Saul\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="G:\Android\Reserva-master\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0_fdb152c6ae43a0bca224c886910d631fff863bf0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android\Reserva-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="G:\Android\Reserva-master\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0_80bf49eb96d4f9979721c5b3aa491074993c7cbf.jar" />
+    </item>
+
+</items>

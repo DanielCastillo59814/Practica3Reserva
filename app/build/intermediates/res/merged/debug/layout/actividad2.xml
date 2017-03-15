@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/muestraDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/hacerOtraReservacion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="hacerOtraReserva"
+        android:text="Hacer Otra Reservacion"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="11dp" />
+
+    <Spinner
+        android:id="@+id/aperturas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:entries="@array/aperturasComida"
+        android:layout_toRightOf="@+id/muestraDatos"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/muestraDatos"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:id="@+id/txtNumPersonas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNombre"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:layout_alignLeft="@+id/txtNombre"
+        android:layout_alignRight="@+id/txtNombre" />
+
+    <TextView
+        android:id="@+id/txtFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNumPersonas"
+        android:layout_alignRight="@+id/txtNumPersonas"
+        android:layout_below="@+id/txtNumPersonas"
+        android:layout_marginTop="12dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/muestraDatos"
+        android:layout_alignLeft="@+id/btnFinalizar"
+        android:text="TextView" />
+
+</RelativeLayout>

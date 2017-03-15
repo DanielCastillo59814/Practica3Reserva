@@ -1,0 +1,24 @@
+#Internal package file, do not edit.
+#Tue Mar 14 17:59:45 CST 2017
+2.base=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+5.set=ANDROID_RESOURCE
+3.base=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+6.file=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
+2.set=ANDROID_RESOURCE
+4.base=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\resources-debug.ap_
+count=7
+0.file=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+5.base=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\main.xml
+1.set=ANDROID_RESOURCE
+2.file=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\ic_launcher.png
+6.set=ANDROID_RESOURCE
+0.base=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+3.set=DEX
+1.base=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=G\:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\actividad2.xml
+0.set=ANDROID_RESOURCE
