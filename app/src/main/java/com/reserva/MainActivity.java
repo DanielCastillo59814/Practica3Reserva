@@ -49,12 +49,14 @@ public class MainActivity extends Activity implements OnSeekBarChangeListener,
 		setContentView(R.layout.activity_main);
 		//Verificamos si existe el string Apertura para extraer los datos que se envían desde la actividad 2
 		//y los mostramos
+		nombre = (EditText) findViewById(R.id.nombre);
 		try {
 			Bundle recibe = new Bundle();
 			recibe = this.getIntent().getExtras();
 			if (recibe.getString("Apertura") != null) {
 				Toast.makeText(getApplicationContext(),"Reservcación hecha. Apertura elegida: "+recibe.getString("Apertura"),Toast.LENGTH_LONG).show();
-
+			}else if(recibe.getString("nombre") != null){
+				nombre.setText(recibe.getString("nombre"));
 			}
 		}catch(Exception e)
 		{
@@ -68,8 +70,6 @@ public class MainActivity extends Activity implements OnSeekBarChangeListener,
 		hora = (Button) findViewById(R.id.hora);
 
 		barraPersonas.setOnSeekBarChangeListener(this);
-
-		nombre = (EditText) findViewById(R.id.nombre);
 
 		cuantasPersonasFormat = cuantasPersonas.getText().toString();
 		// cuantasPersonasFormat = "personas: %d";

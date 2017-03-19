@@ -1,14 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\EMMANUEL\\AndroidStudioProjects\\Reserva\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\EMMANUEL\\AndroidStudioProjects\\Reserva\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "/Users/Bear/Desktop/ANDROID/Reserva-chido/C:\\Users\\CECyT9\\Desktop\\Reserva-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "/Users/Bear/Desktop/ANDROID/Reserva-chido/C:\\Users\\CECyT9\\Desktop\\Reserva-master\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
-        "source": "E:\\Android\\Reserva-master\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "G:\\Android\\Reserva-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
-        "source": "G:\\Android\\Reserva-master\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "/Users/Bear/Desktop/ANDROID/Reserva-chido/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/Bear/Desktop/ANDROID/Reserva-chido/app/src/main/res/drawable-mdpi/ic_launcher.png"
     }
 ]

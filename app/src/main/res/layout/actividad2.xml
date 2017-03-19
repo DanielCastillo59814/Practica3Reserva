@@ -1,72 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-
-    <TextView
-        android:id="@+id/muestraDatos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="75dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="20sp" />
-
-    <Button
-        android:id="@+id/hacerOtraReservacion"
+    android:layout_height="match_parent">
+    <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:onClick="hacerOtraReserva"
-        android:text="Hacer Otra Reservacion"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="11dp" />
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="20px"
+            android:paddingLeft="35px"
+            android:paddingRight="35px"
+            android:paddingTop="20px">
 
-    <Spinner
-        android:id="@+id/aperturas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:entries="@array/aperturasComida"
-        android:layout_toRightOf="@+id/muestraDatos"
-        android:layout_marginLeft="16dp" />
+            <TextView
+                android:id="@+id/muestraDatos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="75dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/txtNombre"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:layout_below="@+id/muestraDatos"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="13dp" />
+            <Button
+                android:id="@+id/hacerOtraReservacion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="11dp"
+                android:onClick="hacerOtraReserva"
+                android:text="Hacer Otra Reservacion" />
 
-    <TextView
-        android:id="@+id/txtNumPersonas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/txtNombre"
-        android:layout_marginTop="24dp"
-        android:text="TextView"
-        android:layout_alignLeft="@+id/txtNombre"
-        android:layout_alignRight="@+id/txtNombre" />
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/muestraDatos"
+                android:layout_marginTop="13dp"
+                android:text="TextView" />
 
-    <TextView
-        android:id="@+id/txtFecha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/txtNumPersonas"
-        android:layout_alignRight="@+id/txtNumPersonas"
-        android:layout_below="@+id/txtNumPersonas"
-        android:layout_marginTop="12dp"
-        android:text="TextView" />
+            <TextView
+                android:id="@+id/txtNumPersonas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtNombre"
+                android:layout_alignRight="@+id/txtNombre"
+                android:layout_below="@+id/txtNombre"
+                android:layout_marginTop="24dp"
+                android:text="TextView" />
 
-    <TextView
-        android:id="@+id/txtTitulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/muestraDatos"
-        android:layout_alignLeft="@+id/btnFinalizar"
-        android:text="TextView" />
+            <TextView
+                android:id="@+id/txtFecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtNumPersonas"
+                android:layout_alignRight="@+id/txtNumPersonas"
+                android:layout_below="@+id/txtNumPersonas"
+                android:layout_marginTop="12dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/muestraDatos"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtFecha"
+                android:layout_marginTop="34dp"
+                android:layout_toRightOf="@+id/txtTitulo"
+                android:text="Acerca de nosotros..." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="33dp"
+                android:src="@drawable/tortas" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginRight="29dp"
+                android:layout_marginTop="17dp"
+                android:layout_toLeftOf="@+id/imageView2"
+                android:text="Direccion:" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@+id/muestraDatos"
+                android:text="Av Sur 12 277, Agrícola Oriental, 08500 Ciudad de México, CDMX" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView5"
+                android:layout_marginTop="13dp"
+                android:text="Consultar Mapa"
+                android:onClick="abreMapa"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button"
+                android:layout_marginRight="29dp"
+                android:layout_marginTop="17dp"
+                android:layout_toLeftOf="@+id/imageView2"
+                android:text="Telefono:" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView10"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@+id/muestraDatos"
+                android:text="55 5558 1455" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView11"
+                android:layout_marginTop="13dp"
+                android:text="Marcar"
+                android:onClick="marcaNumero"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button2"
+                android:layout_marginRight="29dp"
+                android:layout_marginTop="17dp"
+                android:layout_toLeftOf="@+id/imageView2"
+                android:text="Correo Electronico:" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView12"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@+id/muestraDatos"
+                android:text="tortasgigantesur12@gmail.com" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView13"
+                android:layout_marginTop="13dp"
+                android:text="Enviar Correo"
+                android:onClick="enviaCorreo"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button3"
+                android:layout_marginRight="29dp"
+                android:layout_marginTop="17dp"
+                android:layout_toLeftOf="@+id/imageView2"
+                android:text="Pagina de Internet:" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView14"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@+id/muestraDatos"
+                android:text="http://tortasgigantessur12.com/" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView15"
+                android:layout_marginTop="13dp"
+                android:text="Abrir Pagina"
+                android:onClick="abrirPagina"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/button4"
+                android:layout_marginTop="13dp"
+                android:text="Tomate una Foto!"
+                android:onClick="tomarFoto"/>
+
+        </RelativeLayout>
+    </ScrollView>
 
 </RelativeLayout>
